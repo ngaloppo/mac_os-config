@@ -2,10 +2,36 @@
 
 # Installs shell.
 
+install_homeshick () {
+  HS_DIR=$HOME/.homesick/repos/homeshick
+  if [ ! -d "$HS_DIR" ]; then
+    git clone https://github.com/andsens/homeshick.git $HS_DIR
+  else
+    cd $HS_DIR
+    git pull
+  fi
+  source $HS_DIR/homeshick.sh
+}
+
+install_my_dotfiles () {
+  DOTFILES_DIR=$HOME/.homesick/repos/dotfiles
+
+  if [ ! -d $DOTFILES_DIR ]; then
+  homeshick --batch clone git@github.com/ncgalopp/dotfiles
+  fi
+
+  ### Link it all to $HOME ###
+  homeshick link --force
+  export PATH=$HOME/local/bin:$PATH
+}
+
 if [[ -z $(cat /etc/shells | grep "$(get_homebrew_bin_root)/bash") ]]; then
   sudo bash -c "printf '$(get_homebrew_bin_root)/bash\n' >> /etc/shells"
   chsh -s "$(get_homebrew_bin_root)/bash"
-  rm -f "$HOME/.bash_profile"
+
+  install_homeshick
+  install_my_dotfiles
 else
   printf "%s\n" "Shell is installed."
 fi
+

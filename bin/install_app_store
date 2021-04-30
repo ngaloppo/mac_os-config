@@ -5,101 +5,33 @@
 # 1Password
 mas install 443987910
 
-# Acorn
-mas install 1547371478
-
-# Bitwarden
-mas install 1352778147
-
-# CCMenu
-mas install 603117688
-
 # DaisyDisk
 mas install 411643860
 
-# GarageBand
-mas install 682658836
+# Kaleidoscope
+mas install 587512244
 
-# Hand Mirror
-mas install 1502839586
-
-# iMovie
-mas install 408981434
-
-# Key Codes
-mas install 414568915
-
-# Keymou
-mas install 449863619
-
-# Keynote
-mas install 409183694
-
-# Kindle
-mas install 302584613
-
-# Leech
-mas install 1101735327
-
-# LimeChat
-mas install 414030210
+# Magnet
+mas install 441258766
 
 # Marked 2
 mas install 890031187
 
-# Medis
-mas install 1579200037
+# Paprika Recipe Manager
+mas install 451907568
 
-# Meeter
-mas install 1510445899
-
-# Metadatics
-mas install 554883654
-
-# MindNode
-mas install 1289197285
-
-# Moom
-mas install 419330170
-
-# Name Mangler
-mas install 603637384
-
-# Numbers
-mas install 409203825
-
-# OmniFocus 3
-mas install 1346203938
-
-# Pages
-mas install 409201541
-
-# Patterns
-mas install 429449079
-
-# Permute 3
-mas install 1444998321
-
-# Pixelmator
-mas install 407963104
-
-# Paletter
-mas install 1494948845
+# Pocket
+mas install 568494494
 
 # Primitive
 mas install 1175103038
 
-# Sequence Diagram
-mas install 1195426709
+# Soulver
+mas install 413965349
 
-# Shapes
-mas install 930093508
-
-# Shush
-mas install 496437906
-
-# Slack
-mas install 803453959
+# TextSniper
+#mas install 1528890965
 
 # WiFi Explorer
 mas install 494803304
+

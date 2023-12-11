@@ -2,4 +2,4 @@
 
 # Installs Homebrew software.
 
-brew bundle install --file ../lib/Brewfile
+brew bundle install --file $MAC_OS_CONFIG_PATH/lib/Brewfile

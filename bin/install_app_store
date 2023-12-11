@@ -5,12 +5,6 @@
 # 1Password
 mas install 443987910
 
-# DaisyDisk
-mas install 411643860
-
-# Kaleidoscope
-mas install 587512244
-
 # Magnet
 mas install 441258766
 
@@ -33,5 +27,5 @@ mas install 413965349
 #mas install 1528890965
 
 # WiFi Explorer
-mas install 494803304
+#mas install 494803304
 

@@ -88,6 +88,9 @@
 # Docker
 /Users/bkuhlmann/Library/Preferences/com.docker.docker.plist
 
+# Rectangle
+/Users/ncgalopp/Library/Preferences/com.knollsoft.Rectangle.plist
+
 # Doxie
 /Users/bkuhlmann/Library/Preferences/com.getdoxie.doxie.plist
 

@@ -17,7 +17,7 @@ install_my_dotfiles () {
   DOTFILES_DIR=$HOME/.homesick/repos/dotfiles
 
   if [ ! -d $DOTFILES_DIR ]; then
-  homeshick --batch clone git@github.com/ncgalopp/dotfiles
+  homeshick --batch clone git@github.com/ngaloppo/dotfiles
   fi
 
   ### Link it all to $HOME ###
